@@ -7,7 +7,7 @@ Ayrıca _Yapilanistable.cshtml için Install-Package Microsoft.jQuery.Unobtrusiv
 
 Database olarak local sql kullanılmıştır.
 
-Proğramı çalıştırdığınız anda sizi YapilanIslers/Index adresine yönlendirecektir ilk defa çalıştırdığınız için sizden üyelik girişi isteyecektir. Üye girişi yapmak için kullanıcı adı:test@harunakts.com şifre: Test123* yada Üye Ol butonuna tıklayarak üye olabilirsiniz.
+Programı çalıştırdığınız anda sizi YapilanIslers/Index adresine yönlendirecektir ilk defa çalıştırdığınız için sizden üyelik girişi isteyecektir. Üye girişi yapmak için kullanıcı adı:test@harunakts.com şifre: Test123* yada Üye Ol butonuna tıklayarak üye olabilirsiniz.
 
 Giriş yaptığınız takdirde ekranınıza yapılacak işler bölümü gelecektir.Burada 3 saniye civarı beklerseniz listelenecektir.
 
