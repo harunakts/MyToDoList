@@ -9,7 +9,7 @@ Database olarak SQL kullanılmıştır.
 
 Programı çalıştırdığınız anda sizi YapilanIslers/Index adresine yönlendirecektir ilk defa çalıştırdığınız için sizden üyelik girişi isteyecektir. Üye girişi yapmak için kullanıcı adı:test@harunakts.com şifre: Test123* yada Üye Ol butonuna tıklayarak üye olabilirsiniz.
 
-Giriş yaptığınız takdirde ekranınıza yapılacak işler bölümü gelecektir.Burada 3 saniye civarı beklerseniz listelenecektir.
+Giriş yaptığınız takdirde ekranınıza yapılacak işler bölümü gelecektir, burada 3 saniye civarı beklerseniz listelenecektir.
 
 ![image-20200902095434746](image-20200902095434746.png)
 
