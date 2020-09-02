@@ -11,7 +11,7 @@ Proğramı çalıştırdığınız anda sizi YapilanIslers/Index adresine yönle
 
 Giriş yaptığınız takdirde ekranınıza yapılacak işler bölümü gelecektir.Burada 3 saniye civarı beklerseniz listelenecektir.
 
-![image-20200902095434746](C:\Users\harun.aktas\AppData\Roaming\Typora\typora-user-images\image-20200902095434746.png)
+![image-20200902095434746](image-20200902095434746.png)
 
 Yukardaki belirtilen resimdeki gibi ekran karşınıza çıkacaktır.Yeni üyelik ile giriş yaptıysanız aşağıdaki kısa yol ile planınızı ekleyebilirsiniz.Bu kısımda buton koymadım açıklamayı doldurup detaylı planlamayı seçtikten sonra enter tuşuna basmanız yeterli olacaktır ve otomatik olarak eklenecek.
 
