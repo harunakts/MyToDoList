@@ -1,11 +1,11 @@
 # YAPILACAKLAR LİSTESİ
-Kullanıcının günlük,haftalık,aylık olarak yapacağı işleri planladığı küçük bir uygulamadır.
+Kullanıcının günlük, haftalık, aylık olarak yapacağı işleri planladığı küçük bir uygulamadır.
 
-Program yazılırken Enable-Migrations,Add-Migration,Update-Database Paketleri kullanılmıştır.
+Program yazılırken Enable-Migrations, Add-Migration, Update-Database Paketleri kullanılmıştır.
 
-Ayrıca _Yapilanistable.cshtml için Install-Package Microsoft.jQuery.Unobtrusive.ajax işlemi yapıldı.
+Ayrıca "_Yapilanistable.cshtml" için Install-Package Microsoft.jQuery.Unobtrusive.ajax işlemi yapıldı.
 
-Database olarak local sql kullanılmıştır.
+Database olarak SQL kullanılmıştır.
 
 Programı çalıştırdığınız anda sizi YapilanIslers/Index adresine yönlendirecektir ilk defa çalıştırdığınız için sizden üyelik girişi isteyecektir. Üye girişi yapmak için kullanıcı adı:test@harunakts.com şifre: Test123* yada Üye Ol butonuna tıklayarak üye olabilirsiniz.
 
