@@ -1,0 +1,42 @@
+﻿@model Gorev_Yoneticisi.Models.YapilanIsler
+
+@{
+    ViewBag.Title = "Plan Detayları";
+}
+
+<h2>Plan Detayları</h2>
+
+<div>
+    <h4>Plan Detayları</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Aciklama)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Aciklama)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DetayliPlanlama)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DetayliPlanlama)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Durum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Durum)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Düzenle", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Listeye Geri Dön", "Index")
+</p>

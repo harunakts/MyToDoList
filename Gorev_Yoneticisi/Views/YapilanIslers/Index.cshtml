@@ -1,0 +1,70 @@
+﻿@model Gorev_Yoneticisi.Models.YapilanIsler
+
+@{
+    ViewBag.Title = "Yapılacaklar Listesi";
+}
+<style>
+    select, option {
+        width: 280px;
+        height: 40px;
+    }
+
+    option {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+</style>
+<p>
+    @Html.ActionLink("Yeni Plan Oluştur", "Create")
+</p>
+<h2>Yapılacak İşlerin Planlanması
+</h2>
+<div id="tableDiv">
+
+</div>
+<br />
+<br />
+<h2>Kısayol Plan oluştur</h2>
+<div id="PlanOlustur">
+    @using (Ajax.BeginForm("AJAXCreate", "YapilanIslers", new AjaxOptions
+    {
+        InsertionMode = InsertionMode.Replace,
+        HttpMethod = "POST",
+        UpdateTargetId = "tableDiv"
+    }))
+    {
+        <div class="form-group">
+            @Html.AntiForgeryToken()
+            @Html.LabelFor(model => model.Aciklama, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Aciklama, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Aciklama, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="form-group">
+            @Html.LabelFor(model => model.DetayliPlanlama, "Detaylı Planlama", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.DetayliPlanlama, new SelectList(
+                  new List<Object>{
+                       new { value = "Günlük" , text = "Günlük"  },
+                       new { value = "Haftalık" , text = "Haftalık" },
+                       new { value = "Aylık" , text = "Aylık" },
+                    },
+                  "value",
+                  "text",
+                   1))
+
+                @Html.ValidationMessageFor(model => model.DetayliPlanlama, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    }
+</div>
+@section Scripts {
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/Custom_Scripts/DerleYapilanisTable.js"></script>
+    @Scripts.Render("~/bundles/jqueryval")
+    }
+
